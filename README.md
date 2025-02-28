@@ -25,6 +25,9 @@ list disk
 ```
 list partition
 ```
+
+>[!NOTE]
+>Selecione a partiação EFI
 ```
 select partition 1
 ```
