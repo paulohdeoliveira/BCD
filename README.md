@@ -1,14 +1,22 @@
 #### Recuperação da Partição de Boot (System) UEFI/GPT
 
+>[!IMPORTANT]
+>Iniciar o computador com pendrive de instalação do windows.
+>
+> Reparar o computador --> Solução de Problemas --> Prompt de Comando
+
 ```
 diskpart
 ```
 ```
 list disk
 ```
-```
-select disk 0
-```
+>[!NOTE]
+>Selecione o disco onde o windows está instalado
+>
+> ```select disk 0```
+
+
 >[!IMPORTANT]
 >Anote a nova letra da partição C:
 >
@@ -51,9 +59,14 @@ diskpart
 ```
 list volume
 ```
+
+>[!IMPORTANT]
+>Selecione o volume da partição System
+>
 ```
 select volume "x"
 ```
+
 ```
 remove letter S
 ```
