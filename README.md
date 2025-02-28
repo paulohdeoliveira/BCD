@@ -27,7 +27,7 @@ list partition
 ```
 
 >[!NOTE]
->Selecione a partiação EFI
+>Selecione a partição EFI
 ```
 select partition 1
 ```
