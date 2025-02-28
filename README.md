@@ -43,7 +43,7 @@ detail disk
 ```
 exit
 ```
-###### Partiação EFI (UEFI e BIOS Legacy)
+###### Partição EFI (UEFI e BIOS Legacy)
 
 ```
 bcdboot D:\Windows /s S:/f ALL
